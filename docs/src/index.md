@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = AutoGis-Julia
+CurrentModule = AutoGIS
 ```
 
-# AutoGis-Julia
+# AutoGIS
 
-Documentation for [AutoGis-Julia](https://github.com/Ed Fawcett-Taylor/AutoGis-Julia.jl).
+Documentation for [AutoGIS](https://github.com/Auto-GIS-with-X/Auto-GIS-with-Julia).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [AutoGis-Julia]
+Modules = [AutoGIS]
 ```

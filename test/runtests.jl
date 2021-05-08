@@ -1,6 +1,6 @@
-using AutoGis-Julia
+using AutoGIS
 using Test
 
-@testset "AutoGis-Julia.jl" begin
+@testset "AutoGIS.jl" begin
     # Write your tests here.
 end

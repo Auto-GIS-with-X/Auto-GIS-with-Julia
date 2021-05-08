@@ -1,16 +1,16 @@
-using AutoGis-Julia
+using AutoGIS
 using Documenter
 
-DocMeta.setdocmeta!(AutoGis-Julia, :DocTestSetup, :(using AutoGis-Julia); recursive=true)
+DocMeta.setdocmeta!(AutoGIS, :DocTestSetup, :(using AutoGIS); recursive=true)
 
 makedocs(;
-    modules=[AutoGis-Julia],
-    authors="Ed Fawcett-Taylor <edwardpaultaylor@gmail.com> and contributors",
-    repo="https://github.com/Ed Fawcett-Taylor/AutoGis-Julia.jl/blob/{commit}{path}#{line}",
-    sitename="AutoGis-Julia.jl",
+    modules=[AutoGIS],
+    authors="Ed Fawcett-Taylor <edwardpaultaylor@gmail.com>",
+    repo="https://github.com/Auto-GIS-with-X/Auto-GIS-with-Julia/blob/{commit}{path}#{line}",
+    sitename="AutoGIS.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Ed Fawcett-Taylor.github.io/AutoGis-Julia.jl",
+        canonical="https://auto-gis-with-x.github.io/Auto-GIS-with-Julia/",
         assets=String[],
     ),
     pages=[
@@ -19,5 +19,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/Ed Fawcett-Taylor/AutoGis-Julia.jl",
+    repo="https://github.com/Auto-GIS-with-X/Auto-GIS-with-Julia",
 )

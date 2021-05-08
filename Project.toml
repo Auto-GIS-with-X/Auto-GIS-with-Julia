@@ -1,7 +1,10 @@
-name = "AutoGis-Julia"
+name = "AutoGIS"
 uuid = "ec2bce09-24df-4203-8502-12daad671fd3"
-authors = ["Ed Fawcett-Taylor <edwardpaultaylor@gmail.com> and contributors"]
+authors = ["Ed Fawcett-Taylor <edwardpaultaylor@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+GeoInterface = "cf35fbd7-0cd7-5166-be24-54bfbe79505f"
 
 [compat]
 julia = "1.5"
