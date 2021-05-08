@@ -1,0 +1,3 @@
+[deps]
+AutoGis-Julia = "ec2bce09-24df-4203-8502-12daad671fd3"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
