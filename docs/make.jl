@@ -20,4 +20,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/Auto-GIS-with-X/Auto-GIS-with-Julia",
+    devbranch = "main",
 )
